@@ -541,7 +541,6 @@ case $1 in
 "payySND.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "PAYLOAD FUERZA BRUTA PYTHON") $ofc";;
 "paysnd.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "PAYLOAD FUERZA BRUTA") $ofc";;
 "apacheon.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "COMPARTIR ARCHIVO ONLINE") $ofc";;
-"utils.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "(Badvpn/tcpspeed/squidcache/torrent) $ofc";;
 "dados.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "MONITOR DE CONSUMO") $ofc";;
 "speed.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "TEST DE VELOCIDAD") $ofc";;
 "ultrahost")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "$(fun_trans "SCANNER DE SUBDOMINIO") $ofc";;
@@ -560,6 +559,7 @@ case $1 in
 "errormanager.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -ama "CorrecciÃ³n De Puertos $(pid_inst errormanager)";;
 "shadown.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -bra "Shadowsocks Cloack $(pid_inst ck-server)";;
 "shadowsock.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -bra "Shadowsocks-R,Go,Liv $(pid_inst obfs-serv)";;
+"utils.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "\033[1;36mJUEGOS ONLINE VIDEO LLAMADAS $(pid_inst badvpn-ud)";;
 "shadowsocks.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -bra "Shadowsocks-Libev $(pid_inst obfs-serv)";;
 "ssrrmu.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -bra "ShadowsocksR Manager $(pid_inst python)";;
 "sockspy.sh")echo -ne "$(msg -verd "[$2]") $(msg -verm2 ">") " && msg -azu "SOCKS PYTHON $(pid_inst python)";;
